@@ -1,0 +1,82 @@
+/* vw and vh 
+vw - viewport width
+vh - viewport height */
+
+/* .responsive {
+  background-color: red;
+  width: 20em;
+  height: 20em;
+}
+
+/* em and rem 
+ul {
+  font-size: 30px;
+}
+
+li {
+  font-size: 2em;
+}
+
+.random {
+  font-size: 5px;
+}
+
+p {
+  font-size: 2em;
+}
+
+ Media Queries 
+
+@media (min-width: 1000px) {
+  .responsive {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 999px) {
+  .responsive {
+    background-color: green;
+  }
+}
+
+ */
+html {
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 90vw;
+  height: 90vh;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.parent div {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  height: 200px;
+  background-color: red;
+}
+
+.green {
+  height: 150px;
+  background-color: green;
+}
+.blue {
+  height: 100px;
+  background-color: blue;
+}
+
+.yellow {
+  height: 125px;
+  background-color: yellow;
+}
